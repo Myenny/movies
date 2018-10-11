@@ -1,32 +1,40 @@
+header {
+  display: block;
+}
 ul {
   list-style: none;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-
-section {
+#root {
   display: flex;
+}
+section.container {
+  align-items: center;
+  padding: 0 auto;
+  /* display: flex; */
   flex-wrap: wrap;
-  align-content: space-around;
+  justify-content: center;
   width: 200px;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 10px;
   background-color: aqua;
   border: 2px solid black;
 }
-
-div {
+.shelf {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  flex-direction: row;
 }
 
-.container {
-  display: flex;
-  flex-wrap: wrap;
+/* body {
+  justify-content: center;
+  align-items: center;
+} */
+
+div {
+  display: inline;
 }
 
 p {
